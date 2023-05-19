@@ -22,9 +22,7 @@ public class CoursesLinksTests {
 		sleep(17000);
 
 		// 2 - Click on Enroll for just $9.99 on Teachable button
-		driver.findElement(
-				By.xpath("//img[@alt='Selenium WebDriver with Java for beginners']"))
-				.click();
+		driver.findElement(By.xpath("//img[@alt='Selenium WebDriver with Java for beginners']")).click();
 		sleep(5000);
 		
 		// Verify there are two tabs
